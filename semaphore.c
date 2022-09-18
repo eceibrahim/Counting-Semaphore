@@ -2,9 +2,9 @@
 #include "semaphore.h"
 
 
-/** If the communication is between the software modules
-  * only you can replace disabling and enabling the interrupts instructions
-  * with ; and if there are interrupts communicate with the modules by using
+/** If the communication is between the tasks only
+  * you can replace disabling and enabling the interrupts instructions
+  * with ; and if there are interrupts communicate with the tasks by using
   * the semaphore you have to use disabling and enabling interrupts instructions .
   */
 
